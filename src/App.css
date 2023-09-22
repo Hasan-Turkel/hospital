@@ -1,5 +1,11 @@
 /*? Global Stlye for App */
 
+
+
+html, main{
+  background-color: rgb(16, 163, 163);
+}
+
 .doctor-img {
   transition: transform 0.5s;
   border-radius: 1rem;
@@ -25,11 +31,11 @@
 }
 
 .consulted {
-  border-left: 1rem solid rgb(166, 18, 189);
+  border-left: 1rem solid rgb(189, 44, 18);
 }
 .consulted::after {
   content: "CONSULTED";
-  background-color: rgb(166, 18, 189);
+  background-color: rgb(189, 44, 18);
   color: white;
   font-size: 2rem;
   border-radius: 1rem;
